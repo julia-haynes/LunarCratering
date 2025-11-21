@@ -58,7 +58,7 @@
     .attr("d", path);
 
   // === LOAD combined.json ===
-  d3.json("combined.json").then(data => {
+  d3.json("https://raw.githubusercontent.com/julia-haynes/LunarCratering/main/combined.json").then(data => {
 
     // Convert numeric fields
     data.forEach(d => {
